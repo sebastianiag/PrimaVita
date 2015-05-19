@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="promethium.hyms.com.primavita.Splash">
+
+    <ImageView android:id="@+id/splashscreen_content"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:keepScreenOn="true"
+        android:layout_gravity="center"
+        android:src="@drawable/prima_vita_splash"
+        />
+
+</LinearLayout>
